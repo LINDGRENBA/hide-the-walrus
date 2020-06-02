@@ -6,11 +6,15 @@
   display: none;
 }
 
-.clickable {
+#fact-down {
+  display: none;
+}
+
+.clickable, .walrus-clickable, .fact-clickable {
   cursor: pointer;
   color: #0088cc;
 }
 
-.clickable:hover {
+.clickable:hover, .walrus-clickable:hover, .fact-clickable:hover {
   text-decoration: underline;
 }
